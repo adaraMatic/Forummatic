@@ -1,0 +1,282 @@
+[
+    {
+        "name": "Rainbow",
+        "img":"rainbow"
+    },
+    {
+        "name":"Trust Wallet" ,
+        "img":"trust"
+    },
+    {
+        "name":"Argent" ,
+        "img":"argent"
+    },
+    {
+        "name":"MetaMask" ,
+        "img":"metamask"
+    },
+    {
+        "name":"Gnosis Safe Multisig" ,
+        "img":"gnosis"
+    },
+    {
+        "name":"Crypto.com | DeFi Wallet" ,
+        "img":"defi"
+    },
+    {
+        "name":"Pillar" ,
+        "img":"pillar"
+    },
+    {
+        "name":"imToken" ,
+        "img":"imtoken"
+    },
+    {
+        "name":"ONTO" ,
+        "img":"onto"
+    },
+    {
+        "name":"TokenPocket" ,
+        "img":"tokenpocket"
+    },
+    {
+        "name":"MathWallet" ,
+        "img":"mathwallet"
+    },
+    {
+        "name":"BitPay" ,
+        "img":"bitpay"
+    },
+    {
+        "name":"Ledger Live" ,
+        "img":"ledger"
+    },
+    {
+        "name":"walleth" ,
+        "img":"walleth"
+    },
+    {
+        "name":"Authereum" ,
+        "img":"authereum"
+    },
+    {
+        "name":"Dharma" ,
+        "img":"dharma"
+    },
+    {
+        "name":"1inch Wallet" ,
+        "img":"1inch"
+    },
+    {
+        "name":"Huobi Wallet" ,
+        "img":"huobi"
+    },
+    {
+        "name":"Eidoo",
+        "img": "⁯eidoo"
+    },
+    {
+        "name":"MYKEY" ,
+        "img":"mykey"
+    },
+    {
+        "name":"Loopring Wallet" ,
+        "img":"loopring"
+    },
+    {
+        "name":"TrustVault" ,
+        "img":"trustvault"
+    },
+    {
+        "name":"Atomic" ,
+        "img":"atomic"
+    },
+    {
+        "name":"Coin98" ,
+        "img":"coin98"
+    },
+    {
+        "name":"CoolWallet S" ,
+        "img":"coolwallet"
+    },
+    {
+        "name":"Alice" ,
+        "img":"alice"
+    },
+    {
+        "name":"AlphaWallet" ,
+        "img":"alpha"
+    },
+    {
+        "name":"D'CENT Wallet" ,
+        "img":"d'cent"
+    },
+    {
+        "name":"ZelCore" ,
+        "img":"zelcore"
+    },
+    {
+        "name":"Nash" ,
+        "img":"nash"
+    },
+    {
+        "name":"Coinomi" ,
+        "img":"coinomi"
+    },
+    {
+        "name":"GridPlus" ,
+        "img":"gridplus"
+    },
+    {
+        "name":"CYBAVO Wallet" ,
+        "img":"cybavo"
+    },
+    {
+        "name":"Tokenary" ,
+        "img":"tokenary"
+    },
+    {
+        "name":"Torus" ,
+        "img":"torus"
+    },
+    {
+        "name":"Spatium" ,
+        "img":"spatium"
+    },
+    {
+        "name":"SafePal" ,
+        "img":"safepal"
+    },
+    {
+        "name":"Infinito" ,
+        "img":"infinito"
+    },
+    {
+        "name":"Wallet.io" ,
+        "img":"wallet"
+    },
+    {
+        "name":"Infinity Wallet" ,
+        "img":"infinity"
+    },
+    {
+        "name":"Ownbit" ,
+        "img":"ownbit"
+    },
+    {
+        "name":"EasyPocket" ,
+        "img":"easypocket"
+    },
+    {
+        "name":"Bridge Wallet" ,
+        "img":"bridge"
+    },
+    {
+        "name":"SparkPoint" ,
+        "img":"sparkpoint"
+    },
+    {
+        "name":"ViaWallet" ,
+        "img":"viawallet"
+    },
+    {
+        "name":"BitKeep" ,
+        "img":"bitkeep"
+    },
+    {
+        "name":"Vision" ,
+        "img":"vision"
+    },
+    {
+        "name":"PEAKDEFI Wallet",
+        "img":"peakdefi"
+    },
+    {
+        "name":"Unstoppable Wallet" ,
+        "img":"unstoppable"
+    },
+    {
+        "name":"HaloDefi Wallet" ,
+        "img":"halodefi"
+    },
+    {
+        "name":"Dok Wallet" ,
+        "img":"dok"
+    },
+    {
+        "name":"AT.Wallet" ,
+        "img":"at"
+    },
+    {
+        "name":"Midas Wallet" ,
+        "img":"midas"
+    },
+    {
+        "name":"Ellipal" ,
+        "img":"ellipal"
+    },
+    {
+        "name":"KEYRING PRO" ,
+        "img":"keyring"
+    },
+    {
+        "name":"Aktionariat" ,
+        "img":"aktionarist"
+    },
+    {
+        "name":"Talken Wallet" ,
+        "img":"talken"
+    },
+    {
+        "name":"Tongue Wallet" ,
+        "img":"tongue"
+    },
+    {
+        "name":"Xinfin XDC Network" ,
+        "img":"xinfin"
+    },
+    {
+        "name":"Flare Wallet" ,
+        "img":"flare"
+    },
+    {
+        "name":"KyberSwap" ,
+        "img":"kyberswap"
+    },
+    {
+        "name":"AToken Wallet" ,
+        "img":"atoken"
+    },
+    {
+        "name":"RWallet" ,
+        "img":"rwallet"
+    },
+    {
+        "name":"PlasmaPay" ,
+        "img":"plasmapay"
+    },
+    {
+        "name":"O3Wallet" ,
+        "img":"o3"
+    },
+    {
+        "name":"HashKey Me" ,
+        "img":"hashkey"
+    },
+    {
+        "name":"Jade Wallet" ,
+        "img":"jade"
+    },
+    {
+        "name":"Gaurda Wallet" ,
+        "img":"gaurda"
+    },
+    {
+        "name":"Defiant" ,
+        "img":"defiant"
+    },
+    {
+        "name":"Trustee Wallet" ,
+        "img":"trustee"
+    }
+]

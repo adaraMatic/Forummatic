@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest topics - Forum - Matic Network</title>
+    <meta name="description"
+        content="Forum for devs building on Matic to ask queries, report bugs, share &amp; collaborate. Let&#39;s #BUIDL!">
+    <meta name="discourse_theme_id" content="2">
+    <meta name="discourse_current_homepage" content="categories">
+    <meta name="generator"
+        content="Discourse 2.8.0.beta4 - https://github.com/discourse/discourse version 16cfbed89dbbced2bc8a0e0150d922a973accaa5">
+    <link rel="icon" type="image/png" href="img/LogoSm.png">
+    <link rel="apple-touch-icon" type="image/png" href="img/logoLg.png">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- Local css file -->
+    <link rel="stylesheet" href="/scss/style.css" />
+</head>
+
+<body>
+
+    <!-- NavBar -->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-light shadow fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/asset1.png" alt="Header Logo" width="auto" height="35"
+                        class="d-inline-block align-text-top">
+                </a>
+                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Get Started</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">DSP</a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="btn btn-sm btn-primary alt" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop">Connect Wallet</button>
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <i class="fa fa-bars mx-3" aria-hidden="true"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <form class="d-none" action="" method="post">
+            <div class="mb-3">
+                <label for="subject" class="form-label">Subject</label>
+                <input class="form-control" id="subject" type="text" placeholder="Email Subject" aria-label="">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email:</label>
+                <input class="form-control" id="email" name="email" type="email" placeholder="sending to" aria-label="">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message:</label>
+                <textarea class="form-control" name="message" id="message" cols="50" rows="10"
+                    placeholder="type in your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-sm btn-primary">Submit</button>
+        </form>
+
+        <section class="header_desc">
+            <div>
+                <h4>Welcome to Matic's Dev Forum!</h4>
+                <p>Matic Network is a blockchain scalability platform
+                    which provides secure, scalable and instant transactions
+                    powered by Plasma and Proof-of-Stake side chains.</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="d-flex mb-5">
+                <button class="btn btn-outline-primary btn-sm text-dark">all categories <span
+                        class="fa fa-caret-right"></span>
+                </button>
+                <button class="btn btn-primary btn-sm">Categories</button>
+                <button class="btn btn-outline-white btn-sm">Latest</button>
+                <button class="btn btn-outline-white btn-sm">Top</button>
+            </div>
+        </section>
+
+        <section>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <table class="table table-sm w-100">
+                        <thead>
+                            <tr>
+                                <th>Category</th>
+                                <th>Topic</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="bl yellow">
+                                    <a href="#">
+                                        <h4>General</h4>
+                                    </a>
+                                    <div class="wrapper">
+                                        <div class="box_sm orange"></div><span>Bounties</span>
+                                        <div class="box_sm green"></div><span>Ideas</span>
+                                        <div class="box_sm blue"></div><span>Events</span>
+                                        <div class="box_sm blue"></div><span>Guides and Tutorials</span>
+                                        <div class="box_sm brown"></div><span>Showcase</span>
+                                    </div>
+                                </td>
+                                <td class="topics"><strong>5</strong></td>
+                            </tr>
+
+                            <tr>
+                                <td class="bl red">
+                                    <a href="#">
+                                        <h4>Support</h4>
+                                    </a>
+                                    <div class="wrapper">
+                                        <div class="box_sm purple"></div><span>Matic&nbsp;Wallet</span>
+                                        <div class="box_sm blue"></div><span>Network</span>
+                                        <div class="box_sm blue"></div><span>Small&nbsp;Contracts</span>
+                                        <div class="box_sm blue"></div><span>Asset&nbsp;Mapping</span>
+                                        <div class="box_sm green"></div><span>SDK</span>
+                                        <div class="box_sm blue"></div><span>Dagger</span>
+                                    </div>
+                                </td>
+                                <td><strong>62</strong>&nbsp;/&nbsp;month</td>
+                            </tr>
+
+                            <tr>
+                                <td class="bl blue">
+                                    <a href="#">
+                                        <h4>Matic&nbsp;Mainnet</h4>
+                                    </a>
+                                </td>
+                                <td><strong>23</strong>&nbsp;/&nbsp;month</td>
+                            </tr>
+
+                            <tr>
+                                <td class="bl red">
+                                    <a href="#">
+                                        <h4>Heimdall</h4>
+                                    </a>
+                                </td>
+                                <td><strong>2</strong>&nbsp;/&nbsp;month</td>
+                            </tr>
+
+                            <tr>
+                                <td class="bl blue">
+                                    <a href="#">
+                                        <h4>Mumbai Testnet</h4>
+                                    </a>
+                                </td>
+                                <td><strong>6</strong>&nbsp;/&nbsp;month</td>
+                            </tr>
+
+                            <tr>
+                                <td class="bl black">
+                                    <a href="#">
+                                        <h4>Bor</h4>
+                                    </a>
+                                </td>
+                                <td><strong>2</strong>&nbsp;/&nbsp;month</td>
+                            </tr>
+
+                            <tr>
+                                <td class="bl blue">
+                                    <a href="#">
+                                        <h4>Tech</h4>
+                                    </a>
+                                    <div class="wrapper">
+                                        <div class="box_sm purple"></div><span>Smart&nbsp;Contracts</span>
+                                        <div class="box_sm blue"></div><span>Staking</span>
+                                        <div class="box_sm blue"></div><span>Plasma</span>
+                                        <div class="box_sm blue"></div><span>Proof of Stake(Heimdall)</span>
+                                        <div class="box_sm green"></div><span>SDK</span>
+                                        <div class="box_sm blue"></div><span>Dagger</span>
+                                    </div>
+                                </td>
+                                <td><strong>62</strong>&nbsp;/&nbsp;month</td>
+                            </tr>
+
+                            <tr>
+                                <td class="bl grey">
+                                    <a href="#">
+                                        <h4>Feedback</h4>
+                                    </a>
+                                    <p>Discussion about Matic as an organization, including website, network,
+                                        operations, and how we can improve it.</p>
+                                    <div class="wrapper">
+                                        <div class="box_sm purple"></div><span>Website</span>
+                                        <div class="box_sm blue"></div><span>Code</span>
+                                    </div>
+                                </td>
+                                <td><strong>62</strong>&nbsp;/&nbsp;month</td>
+                            </tr>
+
+                            <tr>
+                                <td class="bl purple">
+                                    <a href="#">
+                                        <h4>governance</h4>
+                                    </a>
+                                </td>
+                                <td><strong>62</strong>&nbsp;/&nbsp;month</td>
+                            </tr>
+
+                            <tr>
+                                <td class="bl purple">
+                                    <a href="#">
+                                        <h4>Counter Stack</h4>
+                                    </a>
+                                    <p>Welcome to the forum dedicated to Matic Network’s first public incentivised
+                                        testnet Counter Stake.</p>
+                                    <div class="wrapper">
+                                        <div class="box_sm grey"></div><span>Node&nbsp;Setup</span>
+                                    </div>
+                                </td>
+                                <td><strong>62</strong>&nbsp;/&nbsp;month</td>
+                            </tr>
+                            <tr>
+                                <td class="bl blue">
+                                    <a href="#">
+                                        <h4>Grants</h4>
+                                    </a>
+                                </td>
+                                <td><strong>3</strong></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <table class="table table-sm w-100">
+                        <thead>
+                            <tr>
+                                <th>Latest</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="img/tableData/asset1.png" alt="img 1" width="45" height="45" />
+                                </td>
+                                <td>
+                                    <p><i class="fa fa-thumbtack"></i>&nbsp;Welcome to Matic Network’s Development Forum
+                                    </p>
+                                </td>
+                                <td>
+                                    <div><strong class="fs-4">0</strong></div>
+                                    <div>jul'18</div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><img src="img/tableData/asset2.png" alt="img 1" width="45" height="45" />
+                                </td>
+                                <td>
+                                    <p>
+                                        Website wallet stuck on login</p>
+                                    <div class="wrapper">
+                                        <div class="box_sm yellow"></div><span>General</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><strong class="fs-4">2</strong></div>
+                                    <div>2h</div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><img src="img/tableData/asset3.png" alt="img 1" width="45" height="45" />
+                                </td>
+                                <td>
+                                    <p>Stuck at login screen</p>
+                                    <div class="wrapper">
+                                        <div class="box_sm red"></div><span>Matic Wallet</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><strong class="fs-4">2</strong></div>
+                                    <div>6h</div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><img src="img/tableData/asset4.png" alt="img 1" width="45" height="45" />
+                                </td>
+                                <td>
+                                    <p>Transfer of Matic from Binance to Matic in error</p>
+                                    <div class="wrapper">
+                                        <div class="box_sm blue"></div><span>Matic Mainnet</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><strong class="fs-4">1</strong></div>
+                                    <div>7h</div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><img src="img/tableData/asset5.png" alt="img 1" width="45" height="45" />
+                                </td>
+                                <td>
+                                    <p>Matic network ETH</p>
+                                    <div class="wrapper">
+                                        <div class="box_sm red"></div><span>Network</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><strong class="fs-4">5</strong></div>
+                                    <div>12h</div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><img src="img/tableData/asset6.png" alt="img 1" width="45" height="45" />
+                                </td>
+                                <td>
+                                    <p>
+                                        Trasferencia nao chegou</p>
+                                    <div class="wrapper">
+                                        <div class="box_sm red"></div><span>Support</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><strong class="fs-4">0</strong></div>
+                                    <div>17h</div>
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td><img src="img/tableData/asset7.png" alt="img 1" width="45" height="45" />
+                                </td>
+                                <td>
+                                    <p>I sent my tokens to an address controlled by the exchange/wallet</p>
+                                    <div class="wrapper">
+                                        <div class="box_sm red"></div><span>Support</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><strong class="fs-4">2</strong></div>
+                                    <div>21h</div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><img src="img/tableData/asset8.png" alt="img 1" width="45" height="45" />
+                                </td>
+                                <td>
+                                    <p>Matic to ETH bridge issues</p>
+                                    <div class="wrapper">
+                                        <div class="box_sm red"></div><span>Matic Wallet</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><strong class="fs-4">2</strong></div>
+                                    <div>1d</div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><img src="img/tableData/asset4.png" alt="img 1" width="45" height="45" />
+                                </td>
+                                <td>
+                                    <p>Transaction stuck</p>
+                                    <div class="wrapper">
+                                        <div class="box_sm red"></div><span>Support</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><strong class="fs-4">1</strong></div>
+                                    <div>1d</div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><img src="img/tableData/asset4.png" alt="img 1" width="45" height="45" />
+                                </td>
+                                <td>
+                                    <p>Bad Transaction</p>
+                                    <div class="wrapper">
+                                        <div class="box_sm red"></div><span>Support</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><strong class="fs-4">1</strong></div>
+                                    <div>1d</div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><img src="img/tableData/asset4.png" alt="img 1" width="45" height="45" />
+                                </td>
+                                <td>
+                                    <p>Need help - bridge</p>
+                                    <div class="wrapper">
+                                        <div class="box_sm red"></div><span>Support</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><strong class="fs-4">1</strong></div>
+                                    <div>1d</div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><img src="img/tableData/asset9.png" alt="img 1" width="45" height="45" />
+                                </td>
+                                <td>
+                                    <p>“Error: Transaction was not mined within 750 seconds, please make sure your
+                                        transaction was properly sent. Be aware that it might still be mined!”</p>
+                                    <div class="wrapper">
+                                        <div class="box_sm red"></div><span>Support</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><strong class="fs-4">5</strong></div>
+                                    <div>1d</div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><img src="img/tableData/asset10.png" alt="img 1" width="45" height="45" />
+                                </td>
+                                <td>
+                                    <p>Transferred Tokens to Binance.com Using Matic Network</p>
+                                    <div class="wrapper">
+                                        <div class="box_sm blue"></div><span>Matic Mainnet</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><strong class="fs-4">17</strong></div>
+                                    <div>1d</div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><img src="img/tableData/asset11.png" alt="img 1" width="45" height="45" />
+                                </td>
+                                <td>
+                                    <p>Bor Upgrade v0.2.7 - Geth v1.10.8 Hotfix Release</p>
+                                    <div class="wrapper">
+                                        <div class="box_sm blue"></div><span>Matic Mainnet</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><strong class="fs-4">0</strong></div>
+                                    <div>2d</div>
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td><img src="img/tableData/asset14.png" alt="img 1" width="45" height="45" />
+                                </td>
+                                <td>
+                                    <p>After submitting the transaction operation, it has not been completed, as long as
+                                        12 hours</p>
+                                    <div class="wrapper">
+                                        <div class="box_sm red"></div><span>Support</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><strong class="fs-4">5</strong></div>
+                                    <div>2d</div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><img src="img/tableData/asset12.png" alt="img 1" width="45" height="45" />
+                                </td>
+                                <td>
+                                    <p>Withdrawl matic from binance to cex.io using matic network</p>
+                                    <div class="wrapper">
+                                        <div class="box_sm blue"></div><span>Matic Mainnet</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><strong class="fs-4">2</strong></div>
+                                    <div>2d</div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><img src="img/tableData/asset4.png" alt="img 1" width="45" height="45" />
+                                </td>
+                                <td>
+                                    <p>
+                                        Transferred MATIC Tokens missing from Binance to Wazirx</p>
+                                    <div class="wrapper">
+                                        <div class="box_sm red"></div><span>Matic Wallet</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><strong class="fs-4">4</strong></div>
+                                    <div>2d</div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><img src="img/tableData/asset4.png" alt="img 1" width="45" height="45" />
+                                </td>
+                                <td>
+                                    <p>
+                                        Matics are stuck on pending
+                                    </p>
+                                    <div class="wrapper">
+                                        <div class="box_sm red"></div><span>Support</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><strong class="fs-4">1</strong></div>
+                                    <div>2d</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><img src="img/tableData/asset13.png" alt="img 1" width="45" height="45" />
+                                </td>
+                                <td>
+                                    <p>Validator heimdalld-bridge not starting</p>
+                                    <div class="wrapper">
+                                        <div class="box_sm red"></div><span>Heimdall</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><strong class="fs-4">1</strong></div>
+                                    <div>2d</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><img src="img/tableData/asset4.png" alt="img 1" width="45" height="45" />
+                                </td>
+                                <td>
+                                    <p>Wrapped ETH sent to Address not successful</p>
+                                    <div class="wrapper">
+                                        <div class="box_sm blue"></div><span>Matic Mainnet</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><strong class="fs-4">1</strong></div>
+                                    <div>3d</div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <div class="d-flex justify-content-end mb-6">
+            <button class="btn btn-grey float-right">More</button>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <section class="container-lg">
+            <div class="row">
+                <div class="col-lg-3 col-12 mb-3 bb">
+                    <h4>Matic Network</h4>
+                    <p>Matic Network is a blockchain scalability platform which provides secure, scalable and instant
+                        transactions powered by PoS side chains and an adapted version of Plasma.</p>
+
+                </div>
+                <div class="col mt-1">
+                    <ul>
+                        <h5>Know Matic</h5>
+                        <li>About Us</li>
+                        <li>Use Cases</li>
+                        <li>DApps</li>
+                        <li>Matic Mitra</li>
+                    </ul>
+                </div>
+                <div class="col mt-1">
+                    <ul>
+                        <h5>Products</h5>
+                        <li>Dagger</li>
+                        <li>Wallet</li>
+                    </ul>
+                </div>
+                <div class="col mt-1">
+                    <ul>
+                        <h5>Resources</h5>
+                        <li>Whitepaper</li>
+                        <li>Docs</li>
+                        <li>Dev Support</li>
+                    </ul>
+                </div>
+                <div class="col mt-1">
+                    <ul>
+                        <h5>Community</h5>
+                        <li>Telegram</li>
+                        <li>Twitter</li>
+                    </ul>
+                </div>
+                <div class="col mt-1">
+                    <ul>
+                        <h5>Contact Us</h5>
+                        <li><a href="mailto:">info@forummatic.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tb">
+                <ul class="footer">
+                    <li><a href="http://">Privacy</a></li>
+                    <li><a href="http://">Terms of service</a></li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+
+    <section>
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content" style="border-radius: 1rem;">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center mt-2 fw-bold w-100" id="staticBackdropLabel">Connect Wallet
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="list-group">
+                            <a href="./wallet">
+                                <li class="list-group-item mb-2 py-3"><img src="img/modalImg/meta.jpeg"
+                                        width="30px" />&ensp;Metamask</li>
+                            </a>
+                            <a href="./wallet">
+                                <li class="list-group-item mb-2 py-3"><img src="img/modalImg/trust.jpeg"
+                                        width="30px" />&ensp;Trust Wallet</li>
+                            </a>
+                            <a href="./wallet">
+                                <li class="list-group-item mb-2 py-3"><img src="img/modalImg/safepal.jpeg"
+                                        width="30px" />&ensp;Safepal</li>
+                            </a>
+                            <a href="./wallet">
+                                <li class="list-group-item mb-2 py-3"><img src="img/modalImg/WalletConnect.svg"
+                                        width="30px" />&ensp;WalletConnect</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="modal-footer text-center my-4 border-top-0">
+                        <p>We do not own your private keys and cannot access your funds without your confimation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/619c1ff76885f60a50bd0720/1fl4tpo4o';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+</body>
+
+</html>

