@@ -30,7 +30,7 @@
     <header>
         <nav class="navbar navbar-expand-md navbar-light bg-light shadow fixed-top">
             <div class="container">
-                <ul class="navbar-nav d-flex justify-content-around w-100">
+                <ul class="navbar-nav d-flex flex-row justify-content-around w-100">
                     <li class="nav-item">
                         <a class="h-100 d-flex fs-4 align-items-center nav-link text-secondary" aria-current="page"
                             href="#">Apps</a>
@@ -215,7 +215,7 @@
             console.log(data, '2')
             if (data.length > 1) {
                 data.forEach(el => {
-                    display.innerHTML += `<div class="col-3 mb-3 card_hover" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    display.innerHTML += `<div class="col-md-3 col-6 mb-3 card_hover" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                         <div class="card border-0 w-100 d-flex justify-content-center">
                             <div class="img-container"><img src="img/wallet/${el.img}.jpeg" alt="${el.img}" /></div>
                             <h6 class="text-center mt-3">${el.name}</h6>
