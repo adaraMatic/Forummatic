@@ -328,5 +328,8 @@ ul.wallet_footer a img {
     max-width: 24.5rem;
   }
 }
+.modal-sm {
+  width: 24rem;
+}
 
 /*# sourceMappingURL=style.css.map */
