@@ -325,7 +325,7 @@ ul.wallet_footer {
 .modal {
   div.modal-body,
   div.nav.nav-tabs {
-    font-size: 0.86rem !important;
+    font-size: 0.8rem !important;
   }
   p {
     margin-top: 1rem;
@@ -340,5 +340,10 @@ ul.wallet_footer {
 }
 
 .modal-sm {
-  width: 24rem;
+  // width: 24rem;
+  .nav-tabs{
+    button{
+      margin-right: 0.3rem;
+    }
+  }
 }

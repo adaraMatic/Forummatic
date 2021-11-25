@@ -1,6 +1,6 @@
 body {
   font-size: 0.9rem;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 a {
@@ -14,10 +14,12 @@ button.btn-primary.alt {
   border: 0;
   font-size: 0.8706em;
 }
+
 button.btn-primary.alt:hover, button.btn-primary.alt:focus, button.btn-primary.alt:active, button.btn-primary.alt:active:focus {
   background-color: #0b1547;
   border: 0;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .fa-bars {
@@ -27,11 +29,13 @@ button.btn-primary.alt:hover, button.btn-primary.alt:focus, button.btn-primary.a
   cursor: pointer;
   color: grey;
 }
+
 .fa-bars:hover, .fa-bars:focus, .fa-bars:active, .fa-bars:active:focus {
   color: #0b1547;
   background-color: #85a4c2;
   border: 0;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   padding: 0.3rem;
   cursor: pointer;
 }
@@ -56,23 +60,36 @@ button {
 section.header_desc {
   height: 55vh;
 }
+
 section.header_desc div {
   height: 55vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 section.header_desc div h4 {
   font-size: 1.3rem;
   font-weight: bold;
   margin-bottom: 1rem;
 }
+
 section.header_desc div p {
   width: 30%;
   font-size: 0.9rem;
   text-align: center;
 }
+
 @media only screen and (max-width: 999px) {
   section.header_desc div p {
     width: 50vw;
@@ -82,56 +99,71 @@ section.header_desc div p {
 table thead {
   border-bottom: 2px solid #cccccc;
 }
+
 table th {
   color: #4660e2;
   font-weight: 400;
   font-size: 0.9rem;
 }
+
 table tbody td.bl {
   border-left: 6px solid;
 }
+
 table tbody td.bl.yellow {
   border-left-color: #f7941d;
 }
+
 table tbody td.bl.red {
   border-left-color: #bf1e2e;
 }
+
 table tbody td.bl.pink {
   border-left-color: #ed207b;
 }
+
 table tbody td.bl.blue {
   border-left-color: #25aae2;
 }
+
 table tbody td.bl.black {
   border-left-color: #231f20;
 }
+
 table tbody td.bl.purple {
   border-left-color: #92278f;
 }
+
 table tbody td.bl.grey {
   border-left-color: #808281;
 }
+
 table td {
   color: #4660e2;
   vertical-align: middle;
   font-size: 1.2rem;
 }
+
 table td a {
   text-decoration: none;
 }
+
 table td a h4 {
   color: black;
   font-size: 1.2rem;
   margin-bottom: 0.6rem;
   margin-top: 0.5rem;
 }
+
 table td img {
   border-radius: 50%;
 }
+
 table td div.wrapper span,
 table td div.wrapper h4 {
   cursor: pointer;
 }
+
 table td.topics {
   text-align: right;
 }
@@ -176,11 +208,17 @@ table td.topics {
 }
 
 div.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 100%;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 div.wrapper span {
   font-size: 0.8rem;
 }
@@ -190,24 +228,30 @@ footer.footer {
   color: #85a4c2;
   padding-top: 2rem;
 }
+
 footer.footer h4,
 footer.footer h5 {
   color: white;
 }
+
 footer.footer h5 {
   font-size: 1rem;
 }
+
 footer.footer ul {
   padding-left: 0;
   list-style-type: none;
 }
+
 footer.footer ul li {
   cursor: pointer;
 }
+
 footer.footer ul li a {
   text-decoration: none;
   color: #85a4c2;
 }
+
 @media only screen and (max-width: 999px) {
   footer.footer div.bb {
     border-bottom: 1px solid #ffffff15;
@@ -215,12 +259,16 @@ footer.footer ul li a {
 }
 
 ul.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   font-size: 0.75rem;
 }
+
 ul.footer li {
   margin-right: 1rem;
 }
+
 ul.footer li a {
   text-decoration: none;
   color: #85a4c2;
@@ -238,8 +286,11 @@ button.btn-grey {
   padding: 0.53em 0.8em;
   border: none;
   border-radius: 0;
-  justify-content: end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
 }
+
 button.btn-grey:hover {
   background: #4660e2;
   color: #222;
@@ -252,9 +303,11 @@ div.mb-6 {
 li.list-group-item {
   border: 1px solid #616161;
   border-radius: 0.8rem;
+  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
+
 li.list-group-item:hover {
   background: #11457d;
   border: #11457d 1px solid;
@@ -279,10 +332,15 @@ li.list-group-item + .list-group-item {
 }
 
 div#display div.img-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 100%;
 }
+
 div#display img {
   border-radius: 50%;
   width: 6rem;
@@ -291,17 +349,29 @@ div#display img {
 div.card_hover:hover {
   cursor: pointer;
 }
+
 div.card_hover:hover img {
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
 ul.wallet_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   list-style: none;
 }
+
 ul.wallet_footer a img {
   width: 2rem;
 }
@@ -316,8 +386,9 @@ ul.wallet_footer a img {
 
 .modal div.modal-body,
 .modal div.nav.nav-tabs {
-  font-size: 0.86rem !important;
+  font-size: 0.8rem !important;
 }
+
 .modal p {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -328,8 +399,8 @@ ul.wallet_footer a img {
     max-width: 24.5rem;
   }
 }
-.modal-sm {
-  width: 24rem;
-}
 
+.modal-sm .nav-tabs button {
+  margin-right: 0.3rem;
+}
 /*# sourceMappingURL=style.css.map */
